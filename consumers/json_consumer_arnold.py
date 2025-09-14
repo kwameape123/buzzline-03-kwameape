@@ -53,17 +53,14 @@ def get_kafka_consumer_group_id() -> str:
     logger.info(f"Kafka consumer group id: {group_id}")
     return group_id
 
-
 #####################################
-# Set up Data Store to hold author counts
+# Determine total average rainfall per country
 #####################################
 
-# Initialize a dictionary to store author counts
-# The defaultdict type initializes counts to 0
-# pass in the int function as the default_factory
-# to ensure counts are integers
-# {author: count} author is the key and count is the value
-author_counts: defaultdict[str, int] = defaultdict(int)
+# write function to find total average rainfall per country
+rainfall_totals: defaultdict[str, float] = defaultdict(float)
+
+
 
 
 #####################################
@@ -89,15 +86,13 @@ def process_message(message: str) -> None:
         # Ensure the processed JSON is logged for debugging
         logger.info(f"Processed JSON message: {message_dict}")
 
-        # Extract the 'author' field from the Python dictionary
-        author = message_dict.get("author", "unknown")
-        logger.info(f"Message received from author: {author}")
 
-        # Increment the count for the author
-        author_counts[author] += 1
+        # total average rainfall per country
+        country = message_dict.get("Area", "unknown") # area is the country name in the JSON data
+        avg_rainfall = float(message_dict.get("average_rain_fall_mm_per_year", 0)) # rainfall is the rainfall amount in the JSON data
+        rainfall_totals[country] += avg_rainfall
+        logger.info(f"Updated rainfall totals: {dict(rainfall_totals)}")
 
-        # Log the updated counts
-        logger.info(f"Updated author counts: {dict(author_counts)}")
 
     except json.JSONDecodeError:
         logger.error(f"Invalid JSON message: {message}")

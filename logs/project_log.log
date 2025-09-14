@@ -8,3 +8,260 @@
 2025-09-14 13:01:23 | WARNING | Producer interrupted by user.
 2025-09-14 13:01:23 | INFO | Kafka producer closed.
 2025-09-14 13:01:23 | INFO | END producer.
+2025-09-14 13:30:25 | INFO | Logging to file: logs/project_log.log
+2025-09-14 13:30:25 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 13:30:25 | INFO | Project root: D:/projects/buzzline-03-USERape
+2025-09-14 13:30:25 | INFO | Data folder: D:/projects/buzzline-03-USERape/data
+2025-09-14 13:30:25 | INFO | Data file: D:/projects/buzzline-03-USERape/data/rainfall.json
+2025-09-14 13:30:25 | INFO | START producer.
+2025-09-14 13:30:25 | INFO | Kafka broker address: localhost:9092
+2025-09-14 13:30:25 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'BelHa6fnRvy4wd5axlKIwQ', 'controller_id': 1}
+2025-09-14 13:30:25 | INFO | Kafka topic: rainfall_json
+2025-09-14 13:30:25 | INFO | Message interval: 2 seconds
+2025-09-14 13:30:25 | INFO | Kafka broker address: localhost:9092
+2025-09-14 13:30:25 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-14 13:30:26 | INFO | Kafka producer successfully created.
+2025-09-14 13:30:26 | INFO | Kafka broker address: localhost:9092
+2025-09-14 13:30:26 | INFO | Topic 'rainfall_json' already exists. Recreating fresh...
+2025-09-14 13:30:26 | INFO | Requested deletion of topic 'rainfall_json'.
+2025-09-14 13:30:26 | INFO | Topic 'rainfall_json' created successfully.
+2025-09-14 13:30:26 | INFO | Kafka topic 'rainfall_json' is ready.
+2025-09-14 13:30:26 | INFO | Starting message production to topic 'rainfall_json'...
+2025-09-14 13:30:26 | INFO | Opening data file in read mode: D:/projects/buzzline-03-USERape/data/rainfall.json
+2025-09-14 13:30:26 | INFO | Reading data from file: D:/projects/buzzline-03-USERape/data/rainfall.json
+2025-09-14 13:30:26 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1985, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:28 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1986, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:30 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1987, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:32 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1989, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:34 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1990, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:36 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1991, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:38 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1992, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:40 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1993, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:42 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1994, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:44 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1995, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:46 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1996, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:48 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1997, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:50 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1998, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:52 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1999, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:54 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2000, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:56 | INFO | Logging to file: logs/project_log.log
+2025-09-14 13:30:56 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 13:30:56 | INFO | START consumer.
+2025-09-14 13:30:56 | INFO | Kafka topic: rainfall_json
+2025-09-14 13:30:56 | INFO | Kafka consumer group id: buzz_group
+2025-09-14 13:30:56 | INFO | Consumer: Topic 'rainfall_json' and group 'buzz_group'...
+2025-09-14 13:30:56 | INFO | Kafka broker address: localhost:9092
+2025-09-14 13:30:56 | INFO | Creating Kafka consumer. Topic='rainfall_json' and group ID='buzz_group'.
+2025-09-14 13:30:56 | INFO | Kafka consumer created successfully.
+2025-09-14 13:30:56 | INFO | Polling messages from topic 'rainfall_json'...
+2025-09-14 13:30:56 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2001, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:58 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2002, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1986, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 327.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1987, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 654.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1989, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 981.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1990, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 1308.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1991, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 1635.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1992, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 1962.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1993, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 2289.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1994, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 2616.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1995, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 2943.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1996, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 3270.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1997, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 3597.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1998, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 3924.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1999, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 4251.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2000, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 4578.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2001, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 4905.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2002, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 5232.0}
+2025-09-14 13:31:00 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2004, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:00 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2004, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:00 | INFO | Updated rainfall totals: {'unknown': 5559.0}
+2025-09-14 13:31:02 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2005, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:02 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2005, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:02 | INFO | Updated rainfall totals: {'unknown': 5886.0}
+2025-09-14 13:31:04 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2006, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:04 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2006, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:04 | INFO | Updated rainfall totals: {'unknown': 6213.0}
+2025-09-14 13:31:06 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2007, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:06 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2007, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:06 | INFO | Updated rainfall totals: {'unknown': 6540.0}
+2025-09-14 13:31:08 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2008, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:08 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2008, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:08 | INFO | Updated rainfall totals: {'unknown': 6867.0}
+2025-09-14 13:31:10 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2009, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:10 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2009, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:10 | INFO | Updated rainfall totals: {'unknown': 7194.0}
+2025-09-14 13:31:12 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2010, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:12 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2010, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:12 | INFO | Updated rainfall totals: {'unknown': 7521.0}
+2025-09-14 13:31:14 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2011, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:14 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2011, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:14 | INFO | Updated rainfall totals: {'unknown': 7848.0}
+2025-09-14 13:31:16 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2012, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:16 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2012, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:16 | INFO | Updated rainfall totals: {'unknown': 8175.0}
+2025-09-14 13:31:18 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2013, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:18 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2013, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:18 | INFO | Updated rainfall totals: {'unknown': 8502.0}
+2025-09-14 13:31:20 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2014, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:20 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2014, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:20 | INFO | Updated rainfall totals: {'unknown': 8829.0}
+2025-09-14 13:31:22 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2015, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:22 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2015, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:22 | INFO | Updated rainfall totals: {'unknown': 9156.0}
+2025-09-14 13:31:24 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2016, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:24 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2016, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:24 | INFO | Updated rainfall totals: {'unknown': 9483.0}
+2025-09-14 13:31:26 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2017, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:26 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2017, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:26 | INFO | Updated rainfall totals: {'unknown': 9810.0}
+2025-09-14 13:31:28 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1985, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:28 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1985, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:28 | INFO | Updated rainfall totals: {'unknown': 11295.0}
+2025-09-14 13:31:30 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1986, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:30 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1986, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:30 | INFO | Updated rainfall totals: {'unknown': 12780.0}
+2025-09-14 13:31:32 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1987, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:32 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1987, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:32 | INFO | Updated rainfall totals: {'unknown': 14265.0}
+2025-09-14 13:31:34 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1989, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:34 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1989, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:34 | INFO | Updated rainfall totals: {'unknown': 15750.0}
+2025-09-14 13:31:36 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1990, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:36 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1990, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:36 | INFO | Updated rainfall totals: {'unknown': 17235.0}
+2025-09-14 13:31:38 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1991, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:38 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1991, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:38 | INFO | Updated rainfall totals: {'unknown': 18720.0}
+2025-09-14 13:31:40 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1992, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:40 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1992, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:40 | INFO | Updated rainfall totals: {'unknown': 20205.0}
+2025-09-14 13:31:42 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1993, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:42 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1993, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:42 | INFO | Updated rainfall totals: {'unknown': 21690.0}
+2025-09-14 13:31:44 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1994, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:44 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1994, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:44 | INFO | Updated rainfall totals: {'unknown': 23175.0}
+2025-09-14 13:31:46 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1995, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:46 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1995, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:46 | INFO | Updated rainfall totals: {'unknown': 24660.0}
+2025-09-14 13:31:48 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1996, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:48 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1996, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:48 | INFO | Updated rainfall totals: {'unknown': 26145.0}
+2025-09-14 13:31:50 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1997, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:50 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1997, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:50 | INFO | Updated rainfall totals: {'unknown': 27630.0}
+2025-09-14 13:31:52 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1998, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:52 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1998, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:52 | INFO | Updated rainfall totals: {'unknown': 29115.0}
+2025-09-14 13:31:54 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1999, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:54 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1999, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:54 | INFO | Updated rainfall totals: {'unknown': 30600.0}
+2025-09-14 13:31:56 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2000, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:56 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2000, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:56 | INFO | Updated rainfall totals: {'unknown': 32085.0}
+2025-09-14 13:31:58 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2001, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:58 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2001, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:58 | INFO | Updated rainfall totals: {'unknown': 33570.0}
+2025-09-14 13:32:00 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2002, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:00 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2002, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:00 | INFO | Updated rainfall totals: {'unknown': 35055.0}
+2025-09-14 13:32:02 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2004, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:02 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2004, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:02 | INFO | Updated rainfall totals: {'unknown': 36540.0}
+2025-09-14 13:32:04 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2005, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:04 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2005, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:04 | INFO | Updated rainfall totals: {'unknown': 38025.0}
+2025-09-14 13:32:06 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2006, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:06 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2006, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:06 | INFO | Updated rainfall totals: {'unknown': 39510.0}
+2025-09-14 13:32:08 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2007, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:08 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2007, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:08 | INFO | Updated rainfall totals: {'unknown': 40995.0}
+2025-09-14 13:32:10 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2008, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:10 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2008, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:10 | INFO | Updated rainfall totals: {'unknown': 42480.0}
+2025-09-14 13:32:12 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2009, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:12 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2009, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:12 | INFO | Updated rainfall totals: {'unknown': 43965.0}
+2025-09-14 13:32:14 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2010, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:14 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2010, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:14 | INFO | Updated rainfall totals: {'unknown': 45450.0}
+2025-09-14 13:32:16 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2011, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:16 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2011, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:16 | INFO | Updated rainfall totals: {'unknown': 46935.0}
+2025-09-14 13:32:18 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2012, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:18 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2012, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:18 | INFO | Updated rainfall totals: {'unknown': 48420.0}
+2025-09-14 13:32:20 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2013, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:20 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2013, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:20 | INFO | Updated rainfall totals: {'unknown': 49905.0}
+2025-09-14 13:32:22 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2014, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:22 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2014, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:22 | INFO | Updated rainfall totals: {'unknown': 51390.0}
+2025-09-14 13:32:24 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2015, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:24 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2015, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:24 | INFO | Updated rainfall totals: {'unknown': 52875.0}
+2025-09-14 13:32:26 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2016, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:26 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2016, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:26 | INFO | Updated rainfall totals: {'unknown': 54360.0}
+2025-09-14 13:32:28 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2017, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:28 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2017, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:28 | INFO | Updated rainfall totals: {'unknown': 55845.0}
+2025-09-14 13:32:30 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1985, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:30 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1985, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:30 | INFO | Updated rainfall totals: {'unknown': 55934.0}
+2025-09-14 13:32:32 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1986, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:32 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1986, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:32 | INFO | Updated rainfall totals: {'unknown': 56023.0}
+2025-09-14 13:32:34 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1987, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:34 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1987, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:34 | INFO | Updated rainfall totals: {'unknown': 56112.0}
+2025-09-14 13:32:36 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1989, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:36 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1989, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:36 | INFO | Updated rainfall totals: {'unknown': 56201.0}
+2025-09-14 13:32:38 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1990, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:38 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1990, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:38 | INFO | Updated rainfall totals: {'unknown': 56290.0}
+2025-09-14 13:32:40 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1991, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:40 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1991, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:40 | INFO | Updated rainfall totals: {'unknown': 56379.0}
+2025-09-14 13:32:42 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1992, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:42 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1992, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:42 | INFO | Updated rainfall totals: {'unknown': 56468.0}
+2025-09-14 13:32:44 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1993, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:44 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1993, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:44 | INFO | Updated rainfall totals: {'unknown': 56557.0}
+2025-09-14 13:32:46 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1994, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:46 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1994, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:46 | INFO | Updated rainfall totals: {'unknown': 56646.0}
+2025-09-14 13:32:48 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1995, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:48 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1995, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:48 | INFO | Updated rainfall totals: {'unknown': 56735.0}
+2025-09-14 13:32:50 | WARNING | Consumer interrupted by user.
+2025-09-14 13:32:50 | INFO | Kafka consumer for topic 'rainfall_json' closed.
+2025-09-14 13:32:50 | INFO | END consumer for topic 'rainfall_json' and group 'buzz_group'.
+2025-09-14 13:32:50 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1996, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:52 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1997, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:54 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1998, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:56 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1999, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:58 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 2000, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:33:00 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 2001, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:33:02 | WARNING | Producer interrupted by user.
+2025-09-14 13:33:02 | INFO | Kafka producer closed.
+2025-09-14 13:33:02 | INFO | END producer.
