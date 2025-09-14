@@ -1,0 +1,411 @@
+2025-09-14 13:01:11 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1992, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:01:13 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1993, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:01:15 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1994, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:01:17 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1995, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:01:19 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1996, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:01:21 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1997, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:01:23 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1998, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:01:23 | WARNING | Producer interrupted by user.
+2025-09-14 13:01:23 | INFO | Kafka producer closed.
+2025-09-14 13:01:23 | INFO | END producer.
+2025-09-14 13:30:25 | INFO | Logging to file: logs/project_log.log
+2025-09-14 13:30:25 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 13:30:25 | INFO | Project root: D:/projects/buzzline-03-USERape
+2025-09-14 13:30:25 | INFO | Data folder: D:/projects/buzzline-03-USERape/data
+2025-09-14 13:30:25 | INFO | Data file: D:/projects/buzzline-03-USERape/data/rainfall.json
+2025-09-14 13:30:25 | INFO | START producer.
+2025-09-14 13:30:25 | INFO | Kafka broker address: localhost:9092
+2025-09-14 13:30:25 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'BelHa6fnRvy4wd5axlKIwQ', 'controller_id': 1}
+2025-09-14 13:30:25 | INFO | Kafka topic: rainfall_json
+2025-09-14 13:30:25 | INFO | Message interval: 2 seconds
+2025-09-14 13:30:25 | INFO | Kafka broker address: localhost:9092
+2025-09-14 13:30:25 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-14 13:30:26 | INFO | Kafka producer successfully created.
+2025-09-14 13:30:26 | INFO | Kafka broker address: localhost:9092
+2025-09-14 13:30:26 | INFO | Topic 'rainfall_json' already exists. Recreating fresh...
+2025-09-14 13:30:26 | INFO | Requested deletion of topic 'rainfall_json'.
+2025-09-14 13:30:26 | INFO | Topic 'rainfall_json' created successfully.
+2025-09-14 13:30:26 | INFO | Kafka topic 'rainfall_json' is ready.
+2025-09-14 13:30:26 | INFO | Starting message production to topic 'rainfall_json'...
+2025-09-14 13:30:26 | INFO | Opening data file in read mode: D:/projects/buzzline-03-USERape/data/rainfall.json
+2025-09-14 13:30:26 | INFO | Reading data from file: D:/projects/buzzline-03-USERape/data/rainfall.json
+2025-09-14 13:30:26 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1985, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:28 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1986, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:30 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1987, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:32 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1989, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:34 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1990, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:36 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1991, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:38 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1992, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:40 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1993, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:42 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1994, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:44 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1995, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:46 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1996, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:48 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1997, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:50 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1998, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:52 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 1999, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:54 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2000, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:56 | INFO | Logging to file: logs/project_log.log
+2025-09-14 13:30:56 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 13:30:56 | INFO | START consumer.
+2025-09-14 13:30:56 | INFO | Kafka topic: rainfall_json
+2025-09-14 13:30:56 | INFO | Kafka consumer group id: buzz_group
+2025-09-14 13:30:56 | INFO | Consumer: Topic 'rainfall_json' and group 'buzz_group'...
+2025-09-14 13:30:56 | INFO | Kafka broker address: localhost:9092
+2025-09-14 13:30:56 | INFO | Creating Kafka consumer. Topic='rainfall_json' and group ID='buzz_group'.
+2025-09-14 13:30:56 | INFO | Kafka consumer created successfully.
+2025-09-14 13:30:56 | INFO | Polling messages from topic 'rainfall_json'...
+2025-09-14 13:30:56 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2001, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:58 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2002, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1986, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 327.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1987, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 654.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1989, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 981.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1990, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 1308.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1991, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 1635.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1992, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 1962.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1993, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 2289.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1994, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 2616.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1995, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 2943.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1996, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 3270.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1997, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 3597.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1998, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 3924.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 1999, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 4251.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2000, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 4578.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2001, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 4905.0}
+2025-09-14 13:30:59 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2002, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:30:59 | INFO | Updated rainfall totals: {'unknown': 5232.0}
+2025-09-14 13:31:00 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2004, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:00 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2004, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:00 | INFO | Updated rainfall totals: {'unknown': 5559.0}
+2025-09-14 13:31:02 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2005, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:02 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2005, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:02 | INFO | Updated rainfall totals: {'unknown': 5886.0}
+2025-09-14 13:31:04 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2006, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:04 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2006, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:04 | INFO | Updated rainfall totals: {'unknown': 6213.0}
+2025-09-14 13:31:06 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2007, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:06 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2007, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:06 | INFO | Updated rainfall totals: {'unknown': 6540.0}
+2025-09-14 13:31:08 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2008, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:08 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2008, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:08 | INFO | Updated rainfall totals: {'unknown': 6867.0}
+2025-09-14 13:31:10 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2009, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:10 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2009, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:10 | INFO | Updated rainfall totals: {'unknown': 7194.0}
+2025-09-14 13:31:12 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2010, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:12 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2010, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:12 | INFO | Updated rainfall totals: {'unknown': 7521.0}
+2025-09-14 13:31:14 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2011, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:14 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2011, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:14 | INFO | Updated rainfall totals: {'unknown': 7848.0}
+2025-09-14 13:31:16 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2012, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:16 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2012, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:16 | INFO | Updated rainfall totals: {'unknown': 8175.0}
+2025-09-14 13:31:18 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2013, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:18 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2013, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:18 | INFO | Updated rainfall totals: {'unknown': 8502.0}
+2025-09-14 13:31:20 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2014, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:20 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2014, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:20 | INFO | Updated rainfall totals: {'unknown': 8829.0}
+2025-09-14 13:31:22 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2015, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:22 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2015, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:22 | INFO | Updated rainfall totals: {'unknown': 9156.0}
+2025-09-14 13:31:24 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2016, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:24 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2016, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:24 | INFO | Updated rainfall totals: {'unknown': 9483.0}
+2025-09-14 13:31:26 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Afghanistan', 'Year': 2017, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:26 | INFO | Processed JSON message: {' Area': 'Afghanistan', 'Year': 2017, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 13:31:26 | INFO | Updated rainfall totals: {'unknown': 9810.0}
+2025-09-14 13:31:28 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1985, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:28 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1985, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:28 | INFO | Updated rainfall totals: {'unknown': 11295.0}
+2025-09-14 13:31:30 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1986, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:30 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1986, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:30 | INFO | Updated rainfall totals: {'unknown': 12780.0}
+2025-09-14 13:31:32 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1987, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:32 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1987, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:32 | INFO | Updated rainfall totals: {'unknown': 14265.0}
+2025-09-14 13:31:34 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1989, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:34 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1989, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:34 | INFO | Updated rainfall totals: {'unknown': 15750.0}
+2025-09-14 13:31:36 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1990, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:36 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1990, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:36 | INFO | Updated rainfall totals: {'unknown': 17235.0}
+2025-09-14 13:31:38 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1991, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:38 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1991, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:38 | INFO | Updated rainfall totals: {'unknown': 18720.0}
+2025-09-14 13:31:40 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1992, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:40 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1992, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:40 | INFO | Updated rainfall totals: {'unknown': 20205.0}
+2025-09-14 13:31:42 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1993, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:42 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1993, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:42 | INFO | Updated rainfall totals: {'unknown': 21690.0}
+2025-09-14 13:31:44 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1994, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:44 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1994, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:44 | INFO | Updated rainfall totals: {'unknown': 23175.0}
+2025-09-14 13:31:46 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1995, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:46 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1995, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:46 | INFO | Updated rainfall totals: {'unknown': 24660.0}
+2025-09-14 13:31:48 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1996, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:48 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1996, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:48 | INFO | Updated rainfall totals: {'unknown': 26145.0}
+2025-09-14 13:31:50 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1997, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:50 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1997, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:50 | INFO | Updated rainfall totals: {'unknown': 27630.0}
+2025-09-14 13:31:52 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1998, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:52 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1998, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:52 | INFO | Updated rainfall totals: {'unknown': 29115.0}
+2025-09-14 13:31:54 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 1999, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:54 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 1999, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:54 | INFO | Updated rainfall totals: {'unknown': 30600.0}
+2025-09-14 13:31:56 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2000, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:56 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2000, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:56 | INFO | Updated rainfall totals: {'unknown': 32085.0}
+2025-09-14 13:31:58 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2001, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:58 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2001, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:31:58 | INFO | Updated rainfall totals: {'unknown': 33570.0}
+2025-09-14 13:32:00 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2002, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:00 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2002, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:00 | INFO | Updated rainfall totals: {'unknown': 35055.0}
+2025-09-14 13:32:02 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2004, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:02 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2004, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:02 | INFO | Updated rainfall totals: {'unknown': 36540.0}
+2025-09-14 13:32:04 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2005, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:04 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2005, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:04 | INFO | Updated rainfall totals: {'unknown': 38025.0}
+2025-09-14 13:32:06 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2006, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:06 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2006, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:06 | INFO | Updated rainfall totals: {'unknown': 39510.0}
+2025-09-14 13:32:08 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2007, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:08 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2007, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:08 | INFO | Updated rainfall totals: {'unknown': 40995.0}
+2025-09-14 13:32:10 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2008, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:10 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2008, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:10 | INFO | Updated rainfall totals: {'unknown': 42480.0}
+2025-09-14 13:32:12 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2009, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:12 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2009, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:12 | INFO | Updated rainfall totals: {'unknown': 43965.0}
+2025-09-14 13:32:14 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2010, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:14 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2010, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:14 | INFO | Updated rainfall totals: {'unknown': 45450.0}
+2025-09-14 13:32:16 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2011, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:16 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2011, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:16 | INFO | Updated rainfall totals: {'unknown': 46935.0}
+2025-09-14 13:32:18 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2012, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:18 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2012, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:18 | INFO | Updated rainfall totals: {'unknown': 48420.0}
+2025-09-14 13:32:20 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2013, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:20 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2013, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:20 | INFO | Updated rainfall totals: {'unknown': 49905.0}
+2025-09-14 13:32:22 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2014, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:22 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2014, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:22 | INFO | Updated rainfall totals: {'unknown': 51390.0}
+2025-09-14 13:32:24 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2015, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:24 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2015, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:24 | INFO | Updated rainfall totals: {'unknown': 52875.0}
+2025-09-14 13:32:26 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2016, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:26 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2016, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:26 | INFO | Updated rainfall totals: {'unknown': 54360.0}
+2025-09-14 13:32:28 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Albania', 'Year': 2017, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:28 | INFO | Processed JSON message: {' Area': 'Albania', 'Year': 2017, 'average_rain_fall_mm_per_year': '1485'}
+2025-09-14 13:32:28 | INFO | Updated rainfall totals: {'unknown': 55845.0}
+2025-09-14 13:32:30 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1985, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:30 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1985, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:30 | INFO | Updated rainfall totals: {'unknown': 55934.0}
+2025-09-14 13:32:32 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1986, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:32 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1986, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:32 | INFO | Updated rainfall totals: {'unknown': 56023.0}
+2025-09-14 13:32:34 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1987, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:34 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1987, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:34 | INFO | Updated rainfall totals: {'unknown': 56112.0}
+2025-09-14 13:32:36 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1989, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:36 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1989, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:36 | INFO | Updated rainfall totals: {'unknown': 56201.0}
+2025-09-14 13:32:38 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1990, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:38 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1990, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:38 | INFO | Updated rainfall totals: {'unknown': 56290.0}
+2025-09-14 13:32:40 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1991, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:40 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1991, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:40 | INFO | Updated rainfall totals: {'unknown': 56379.0}
+2025-09-14 13:32:42 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1992, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:42 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1992, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:42 | INFO | Updated rainfall totals: {'unknown': 56468.0}
+2025-09-14 13:32:44 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1993, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:44 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1993, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:44 | INFO | Updated rainfall totals: {'unknown': 56557.0}
+2025-09-14 13:32:46 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1994, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:46 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1994, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:46 | INFO | Updated rainfall totals: {'unknown': 56646.0}
+2025-09-14 13:32:48 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1995, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:48 | INFO | Processed JSON message: {' Area': 'Algeria', 'Year': 1995, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:48 | INFO | Updated rainfall totals: {'unknown': 56735.0}
+2025-09-14 13:32:50 | WARNING | Consumer interrupted by user.
+2025-09-14 13:32:50 | INFO | Kafka consumer for topic 'rainfall_json' closed.
+2025-09-14 13:32:50 | INFO | END consumer for topic 'rainfall_json' and group 'buzz_group'.
+2025-09-14 13:32:50 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1996, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:52 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1997, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:54 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1998, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:56 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 1999, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:32:58 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 2000, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:33:00 | INFO | Sent message to topic 'rainfall_json': {' Area': 'Algeria', 'Year': 2001, 'average_rain_fall_mm_per_year': '89'}
+2025-09-14 13:33:02 | WARNING | Producer interrupted by user.
+2025-09-14 13:33:02 | INFO | Kafka producer closed.
+2025-09-14 13:33:02 | INFO | END producer.
+2025-09-14 14:17:04 | INFO | Logging to file: logs/project_log.log
+2025-09-14 14:17:04 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 14:17:04 | INFO | Project root: D:/projects/buzzline-03-USERape
+2025-09-14 14:17:04 | INFO | Data folder: D:/projects/buzzline-03-USERape/data
+2025-09-14 14:17:04 | INFO | Data file: D:/projects/buzzline-03-USERape/data/sales.csv
+2025-09-14 14:17:04 | INFO | START producer.
+2025-09-14 14:17:04 | INFO | Kafka broker address: localhost:9092
+2025-09-14 14:17:04 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'BelHa6fnRvy4wd5axlKIwQ', 'controller_id': 1}
+2025-09-14 14:17:04 | INFO | Kafka topic: unknown_topic
+2025-09-14 14:17:04 | INFO | Message interval: 1 seconds
+2025-09-14 14:17:04 | INFO | Kafka broker address: localhost:9092
+2025-09-14 14:17:04 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-14 14:17:04 | INFO | Kafka producer successfully created.
+2025-09-14 14:17:04 | INFO | Kafka broker address: localhost:9092
+2025-09-14 14:17:05 | INFO | Topic 'unknown_topic' created successfully.
+2025-09-14 14:17:05 | INFO | Kafka topic 'unknown_topic' is ready.
+2025-09-14 14:17:05 | INFO | Starting message production to topic 'unknown_topic'...
+2025-09-14 14:17:05 | INFO | Opening data file in read mode: D:/projects/buzzline-03-USERape/data/sales.csv
+2025-09-14 14:17:05 | INFO | Reading data from file: D:/projects/buzzline-03-USERape/data/sales.csv
+2025-09-14 14:17:05 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-01', 'datetime': '2024-03-01 10:15:50.520', 'cash_type': 'card', 'card': 'ANON-0000-0000-0001', 'money': '38.7', 'coffee_name': 'Latte'}
+2025-09-14 14:17:06 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-01', 'datetime': '2024-03-01 12:19:22.539', 'cash_type': 'card', 'card': 'ANON-0000-0000-0002', 'money': '38.7', 'coffee_name': 'Hot Chocolate'}
+2025-09-14 14:17:07 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-01', 'datetime': '2024-03-01 12:20:18.089', 'cash_type': 'card', 'card': 'ANON-0000-0000-0002', 'money': '38.7', 'coffee_name': 'Hot Chocolate'}
+2025-09-14 14:17:08 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-01', 'datetime': '2024-03-01 13:46:33.006', 'cash_type': 'card', 'card': 'ANON-0000-0000-0003', 'money': '28.9', 'coffee_name': 'Americano'}
+2025-09-14 14:17:09 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-01', 'datetime': '2024-03-01 13:48:14.626', 'cash_type': 'card', 'card': 'ANON-0000-0000-0004', 'money': '38.7', 'coffee_name': 'Latte'}
+2025-09-14 14:17:10 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-01', 'datetime': '2024-03-01 15:39:47.726', 'cash_type': 'card', 'card': 'ANON-0000-0000-0005', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 14:17:11 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-01', 'datetime': '2024-03-01 16:19:02.756', 'cash_type': 'card', 'card': 'ANON-0000-0000-0006', 'money': '38.7', 'coffee_name': 'Hot Chocolate'}
+2025-09-14 14:17:12 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-01', 'datetime': '2024-03-01 18:39:03.580', 'cash_type': 'card', 'card': 'ANON-0000-0000-0007', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 14:17:13 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-01', 'datetime': '2024-03-01 19:22:01.762', 'cash_type': 'card', 'card': 'ANON-0000-0000-0008', 'money': '38.7', 'coffee_name': 'Cocoa'}
+2025-09-14 14:17:14 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-01', 'datetime': '2024-03-01 19:23:15.887', 'cash_type': 'card', 'card': 'ANON-0000-0000-0008', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 14:17:15 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-01', 'datetime': '2024-03-01 19:29:17.391', 'cash_type': 'card', 'card': 'ANON-0000-0000-0009', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 14:17:16 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-02', 'datetime': '2024-03-02 10:22:06.957', 'cash_type': 'card', 'card': 'ANON-0000-0000-0010', 'money': '28.9', 'coffee_name': 'Americano'}
+2025-09-14 14:17:17 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-02', 'datetime': '2024-03-02 10:30:35.668', 'cash_type': 'cash', 'card': '', 'money': '40.0', 'coffee_name': 'Latte'}
+2025-09-14 14:17:18 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-02', 'datetime': '2024-03-02 10:41:41.249', 'cash_type': 'card', 'card': 'ANON-0000-0000-0011', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 14:17:19 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-02', 'datetime': '2024-03-02 11:59:45.484', 'cash_type': 'card', 'card': 'ANON-0000-0000-0012', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 14:17:20 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-02', 'datetime': '2024-03-02 14:38:35.535', 'cash_type': 'card', 'card': 'ANON-0000-0000-0013', 'money': '28.9', 'coffee_name': 'Americano'}
+2025-09-14 14:17:21 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-02', 'datetime': '2024-03-02 16:37:24.475', 'cash_type': 'card', 'card': 'ANON-0000-0000-0014', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 14:17:22 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-02', 'datetime': '2024-03-02 17:34:54.969', 'cash_type': 'card', 'card': 'ANON-0000-0000-0004', 'money': '28.9', 'coffee_name': 'Americano'}
+2025-09-14 14:17:23 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-03', 'datetime': '2024-03-03 10:10:43.981', 'cash_type': 'cash', 'card': '', 'money': '40.0', 'coffee_name': 'Latte'}
+2025-09-14 14:17:24 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-03', 'datetime': '2024-03-03 10:27:18.561', 'cash_type': 'card', 'card': 'ANON-0000-0000-0015', 'money': '38.7', 'coffee_name': 'Latte'}
+2025-09-14 14:17:25 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-03', 'datetime': '2024-03-03 11:33:56.118', 'cash_type': 'card', 'card': 'ANON-0000-0000-0016', 'money': '28.9', 'coffee_name': 'Cortado'}
+2025-09-14 14:17:26 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-03', 'datetime': '2024-03-03 12:26:56.098', 'cash_type': 'card', 'card': 'ANON-0000-0000-0012', 'money': '28.9', 'coffee_name': 'Americano'}
+2025-09-14 14:17:27 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-03', 'datetime': '2024-03-03 13:09:36.321', 'cash_type': 'card', 'card': 'ANON-0000-0000-0017', 'money': '38.7', 'coffee_name': 'Hot Chocolate'}
+2025-09-14 14:17:28 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-03', 'datetime': '2024-03-03 17:06:40.271', 'cash_type': 'card', 'card': 'ANON-0000-0000-0018', 'money': '38.7', 'coffee_name': 'Cocoa'}
+2025-09-14 14:17:29 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-03', 'datetime': '2024-03-03 17:08:45.895', 'cash_type': 'card', 'card': 'ANON-0000-0000-0019', 'money': '28.9', 'coffee_name': 'Cortado'}
+2025-09-14 14:17:30 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-03', 'datetime': '2024-03-03 18:03:23.369', 'cash_type': 'card', 'card': 'ANON-0000-0000-0020', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 14:17:31 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-03', 'datetime': '2024-03-03 18:04:27.946', 'cash_type': 'card', 'card': 'ANON-0000-0000-0020', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 14:17:32 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-03', 'datetime': '2024-03-03 18:08:04.959', 'cash_type': 'card', 'card': 'ANON-0000-0000-0020', 'money': '38.7', 'coffee_name': 'Hot Chocolate'}
+2025-09-14 14:17:33 | INFO | Sent message to topic 'unknown_topic': {'date': '2024-03-04', 'datetime': '2024-03-04 10:03:51.994', 'cash_type': 'card', 'card': 'ANON-0000-0000-0001', 'money': '38.7', 'coffee_name': 'Latte'}
+2025-09-14 14:17:33 | WARNING | Producer interrupted by user.
+2025-09-14 14:17:33 | INFO | Kafka producer closed.
+2025-09-14 14:17:33 | INFO | END producer.
+2025-09-14 14:20:18 | INFO | Logging to file: logs/project_log.log
+2025-09-14 14:20:18 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 14:20:18 | INFO | Project root: D:/projects/buzzline-03-USERape
+2025-09-14 14:20:18 | INFO | Data folder: D:/projects/buzzline-03-USERape/data
+2025-09-14 14:20:18 | INFO | Data file: D:/projects/buzzline-03-USERape/data/sales.csv
+2025-09-14 14:20:18 | INFO | START producer.
+2025-09-14 14:20:18 | INFO | Kafka broker address: localhost:9092
+2025-09-14 14:20:18 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'BelHa6fnRvy4wd5axlKIwQ', 'controller_id': 1}
+2025-09-14 14:20:18 | INFO | Kafka topic: coffee_sales
+2025-09-14 14:20:18 | INFO | Message interval: 6 seconds
+2025-09-14 14:20:18 | INFO | Kafka broker address: localhost:9092
+2025-09-14 14:20:18 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-14 14:20:18 | INFO | Kafka producer successfully created.
+2025-09-14 14:20:18 | INFO | Kafka broker address: localhost:9092
+2025-09-14 14:20:19 | INFO | Topic 'coffee_sales' created successfully.
+2025-09-14 14:20:19 | INFO | Kafka topic 'coffee_sales' is ready.
+2025-09-14 14:20:19 | INFO | Starting message production to topic 'coffee_sales'...
+2025-09-14 14:20:19 | INFO | Opening data file in read mode: D:/projects/buzzline-03-USERape/data/sales.csv
+2025-09-14 14:20:19 | INFO | Reading data from file: D:/projects/buzzline-03-USERape/data/sales.csv
+2025-09-14 14:20:19 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 10:15:50.520', 'cash_type': 'card', 'card': 'ANON-0000-0000-0001', 'money': '38.7', 'coffee_name': 'Latte'}
+2025-09-14 14:20:25 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 12:19:22.539', 'cash_type': 'card', 'card': 'ANON-0000-0000-0002', 'money': '38.7', 'coffee_name': 'Hot Chocolate'}
+2025-09-14 14:20:31 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 12:20:18.089', 'cash_type': 'card', 'card': 'ANON-0000-0000-0002', 'money': '38.7', 'coffee_name': 'Hot Chocolate'}
+2025-09-14 14:20:37 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 13:46:33.006', 'cash_type': 'card', 'card': 'ANON-0000-0000-0003', 'money': '28.9', 'coffee_name': 'Americano'}
+2025-09-14 14:20:43 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 13:48:14.626', 'cash_type': 'card', 'card': 'ANON-0000-0000-0004', 'money': '38.7', 'coffee_name': 'Latte'}
+2025-09-14 14:20:43 | WARNING | Producer interrupted by user.
+2025-09-14 14:20:43 | INFO | Kafka producer closed.
+2025-09-14 14:20:43 | INFO | END producer.
+2025-09-14 15:33:26 | INFO | Logging to file: logs/project_log.log
+2025-09-14 15:33:26 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 15:33:26 | INFO | Project root: D:/projects/buzzline-03-USERape
+2025-09-14 15:33:26 | INFO | Data folder: D:/projects/buzzline-03-USERape/data
+2025-09-14 15:33:26 | INFO | Data file: D:/projects/buzzline-03-USERape/data/sales.csv
+2025-09-14 15:33:26 | INFO | START producer.
+2025-09-14 15:33:26 | INFO | Kafka broker address: localhost:9092
+2025-09-14 15:33:26 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'BelHa6fnRvy4wd5axlKIwQ', 'controller_id': 1}
+2025-09-14 15:33:26 | INFO | Kafka topic: coffee_sales
+2025-09-14 15:33:26 | INFO | Message interval: 6 seconds
+2025-09-14 15:33:26 | INFO | Kafka broker address: localhost:9092
+2025-09-14 15:33:26 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-14 15:33:26 | INFO | Kafka producer successfully created.
+2025-09-14 15:33:26 | INFO | Kafka broker address: localhost:9092
+2025-09-14 15:33:26 | INFO | Topic 'coffee_sales' already exists. Recreating fresh...
+2025-09-14 15:33:26 | INFO | Requested deletion of topic 'coffee_sales'.
+2025-09-14 15:33:27 | INFO | Topic 'coffee_sales' created successfully.
+2025-09-14 15:33:27 | INFO | Kafka topic 'coffee_sales' is ready.
+2025-09-14 15:33:27 | INFO | Starting message production to topic 'coffee_sales'...
+2025-09-14 15:33:27 | INFO | Opening data file in read mode: D:/projects/buzzline-03-USERape/data/sales.csv
+2025-09-14 15:33:27 | INFO | Reading data from file: D:/projects/buzzline-03-USERape/data/sales.csv
+2025-09-14 15:33:27 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 10:15:50.520', 'cash_type': 'card', 'card': 'ANON-0000-0000-0001', 'money': '38.7', 'coffee_name': 'Latte'}
+2025-09-14 15:33:33 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 12:19:22.539', 'cash_type': 'card', 'card': 'ANON-0000-0000-0002', 'money': '38.7', 'coffee_name': 'Hot Chocolate'}
+2025-09-14 15:33:39 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 12:20:18.089', 'cash_type': 'card', 'card': 'ANON-0000-0000-0002', 'money': '38.7', 'coffee_name': 'Hot Chocolate'}
+2025-09-14 15:33:43 | INFO | Logging to file: logs/project_log.log
+2025-09-14 15:33:43 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 15:33:43 | INFO | START consumer.
+2025-09-14 15:33:43 | INFO | Kafka topic: coffee_sales
+2025-09-14 15:33:43 | INFO | Kafka consumer group id: sales_group
+2025-09-14 15:33:45 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 13:46:33.006', 'cash_type': 'card', 'card': 'ANON-0000-0000-0003', 'money': '28.9', 'coffee_name': 'Americano'}
+2025-09-14 15:33:51 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 13:48:14.626', 'cash_type': 'card', 'card': 'ANON-0000-0000-0004', 'money': '38.7', 'coffee_name': 'Latte'}
+2025-09-14 15:33:57 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 15:39:47.726', 'cash_type': 'card', 'card': 'ANON-0000-0000-0005', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 15:34:03 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 16:19:02.756', 'cash_type': 'card', 'card': 'ANON-0000-0000-0006', 'money': '38.7', 'coffee_name': 'Hot Chocolate'}
+2025-09-14 15:34:09 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 18:39:03.580', 'cash_type': 'card', 'card': 'ANON-0000-0000-0007', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 15:34:15 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 19:22:01.762', 'cash_type': 'card', 'card': 'ANON-0000-0000-0008', 'money': '38.7', 'coffee_name': 'Cocoa'}
+2025-09-14 15:34:21 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 19:23:15.887', 'cash_type': 'card', 'card': 'ANON-0000-0000-0008', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 15:34:27 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-01', 'datetime': '2024-03-01 19:29:17.391', 'cash_type': 'card', 'card': 'ANON-0000-0000-0009', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 15:34:33 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-02', 'datetime': '2024-03-02 10:22:06.957', 'cash_type': 'card', 'card': 'ANON-0000-0000-0010', 'money': '28.9', 'coffee_name': 'Americano'}
+2025-09-14 15:34:39 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-02', 'datetime': '2024-03-02 10:30:35.668', 'cash_type': 'cash', 'card': '', 'money': '40.0', 'coffee_name': 'Latte'}
+2025-09-14 15:34:45 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-02', 'datetime': '2024-03-02 10:41:41.249', 'cash_type': 'card', 'card': 'ANON-0000-0000-0011', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 15:34:51 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-02', 'datetime': '2024-03-02 11:59:45.484', 'cash_type': 'card', 'card': 'ANON-0000-0000-0012', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 15:34:57 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-02', 'datetime': '2024-03-02 14:38:35.535', 'cash_type': 'card', 'card': 'ANON-0000-0000-0013', 'money': '28.9', 'coffee_name': 'Americano'}
+2025-09-14 15:35:03 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-02', 'datetime': '2024-03-02 16:37:24.475', 'cash_type': 'card', 'card': 'ANON-0000-0000-0014', 'money': '33.8', 'coffee_name': 'Americano with Milk'}
+2025-09-14 15:35:09 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-02', 'datetime': '2024-03-02 17:34:54.969', 'cash_type': 'card', 'card': 'ANON-0000-0000-0004', 'money': '28.9', 'coffee_name': 'Americano'}
+2025-09-14 15:35:15 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-03', 'datetime': '2024-03-03 10:10:43.981', 'cash_type': 'cash', 'card': '', 'money': '40.0', 'coffee_name': 'Latte'}
+2025-09-14 15:35:19 | INFO | Logging to file: logs/project_log.log
+2025-09-14 15:35:19 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 15:35:19 | INFO | START consumer.
+2025-09-14 15:35:19 | INFO | Kafka topic: coffee_sales
+2025-09-14 15:35:19 | INFO | Kafka consumer group id: sales_group
+2025-09-14 15:35:21 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-03', 'datetime': '2024-03-03 10:27:18.561', 'cash_type': 'card', 'card': 'ANON-0000-0000-0015', 'money': '38.7', 'coffee_name': 'Latte'}
+2025-09-14 15:35:27 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-03', 'datetime': '2024-03-03 11:33:56.118', 'cash_type': 'card', 'card': 'ANON-0000-0000-0016', 'money': '28.9', 'coffee_name': 'Cortado'}
+2025-09-14 15:35:33 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-03', 'datetime': '2024-03-03 12:26:56.098', 'cash_type': 'card', 'card': 'ANON-0000-0000-0012', 'money': '28.9', 'coffee_name': 'Americano'}
+2025-09-14 15:35:35 | INFO | Logging to file: logs/project_log.log
+2025-09-14 15:35:35 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 15:35:35 | INFO | START consumer.
+2025-09-14 15:35:35 | INFO | Kafka topic: coffee_sales
+2025-09-14 15:35:35 | INFO | Kafka consumer group id: sales_group
+2025-09-14 15:35:35 | INFO | Kafka broker address: localhost:9092
+2025-09-14 15:35:35 | INFO | Creating Kafka consumer. Topic='coffee_sales' and group ID='sales_group'.
+2025-09-14 15:35:35 | INFO | Kafka consumer created successfully.
+2025-09-14 15:35:35 | INFO | Polling messages from topic 'coffee_sales'...
+2025-09-14 15:35:35 | ERROR | Error while consuming messages: Invalid file descriptor: -1
+2025-09-14 15:35:35 | INFO | Kafka consumer for topic 'coffee_sales' closed.
+2025-09-14 15:35:39 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-03', 'datetime': '2024-03-03 13:09:36.321', 'cash_type': 'card', 'card': 'ANON-0000-0000-0017', 'money': '38.7', 'coffee_name': 'Hot Chocolate'}
+2025-09-14 15:35:45 | INFO | Sent message to topic 'coffee_sales': {'date': '2024-03-03', 'datetime': '2024-03-03 17:06:40.271', 'cash_type': 'card', 'card': 'ANON-0000-0000-0018', 'money': '38.7', 'coffee_name': 'Cocoa'}

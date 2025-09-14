@@ -1,6 +1,5 @@
 """
-json_consumer_case.py
-
+json_consumer_arnold.py
 Consume json messages from a Kafka topic and process them.
 
 JSON is a set of key:value pairs. 
