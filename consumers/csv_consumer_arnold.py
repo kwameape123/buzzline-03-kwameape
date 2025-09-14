@@ -1,7 +1,7 @@
 """
 csv_consumer_arnold.py
 
-Consume JSON messages from a Kafka topic and process them.
+Consume JSON messages resulting from a csv file from a kafka topic and process them.
 """
 
 #####################################

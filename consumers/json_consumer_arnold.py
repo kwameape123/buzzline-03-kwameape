@@ -56,16 +56,12 @@ def get_kafka_consumer_group_id() -> str:
 # Determine total average rainfall per country
 #####################################
 
-# write function to find total average rainfall per country
-rainfall_totals: defaultdict[str, float] = defaultdict(float)
-
-
 
 
 #####################################
 # Function to process a single message
 # #####################################
-
+rainfall_totals: defaultdict[str, float] = defaultdict(float)
 
 def process_message(message: str) -> None:
     """
