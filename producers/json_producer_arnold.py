@@ -22,7 +22,7 @@ import time
 import pathlib  # work with file paths
 import json  # work with JSON data
 from typing import Generator, Dict, Any
-
+import pandas as pd
 # Import external packages
 from dotenv import load_dotenv
 
@@ -54,7 +54,7 @@ def get_kafka_topic() -> str:
 
 def get_message_interval() -> int:
     """Fetch message interval from environment or use default."""
-    interval = int(os.getenv("BUZZ_INTERVAL_SECONDS", 1))
+    interval = int(os.getenv("BUZZ_INTERVAL_SECONDS", 2))
     logger.info(f"Message interval: {interval} seconds")
     return interval
 
@@ -73,7 +73,7 @@ DATA_FOLDER: pathlib.Path = PROJECT_ROOT.joinpath("data")
 logger.info(f"Data folder: {DATA_FOLDER}")
 
 # Set the name of the data file
-DATA_FILE: pathlib.Path = DATA_FOLDER.joinpath("buzz.json")
+DATA_FILE: pathlib.Path = DATA_FOLDER.joinpath("rainfall.json")
 logger.info(f"Data file: {DATA_FILE}")
 
 #####################################
@@ -99,13 +99,17 @@ def generate_messages(file_path: pathlib.Path) -> Generator[Dict[str, Any], None
             with open(DATA_FILE, "r") as json_file:
                 logger.info(f"Reading data from file: {DATA_FILE}")
 
-                # Load the JSON file as a list of dictionaries
-                json_data: list[Dict[str, Any]] = json.load(json_file)
+                #Load the JSON file into a pandas DataFrame
+                df = pd.read_json(json_file)
+
+                # Convert DataFrame to list of dictionaries
+                json_data:list[dict[str,Any]] = df.to_dict(orient='records')
+
 
                 # Iterate over the entries in the JSON file
-                for buzz_entry in json_data:
-                    logger.debug(f"Generated JSON: {buzz_entry}")
-                    yield buzz_entry
+                for rainfall_entry in json_data:
+                    logger.debug(f"Generated JSON: {rainfall_entry}")
+                    yield rainfall_entry
         
         except FileNotFoundError:
             logger.error(f"File not found: {file_path}. Exiting.")

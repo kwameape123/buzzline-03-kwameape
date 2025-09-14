@@ -433,3 +433,51 @@
 2025-09-11 19:02:21 | WARNING | Producer interrupted by user.
 2025-09-11 19:02:21 | INFO | Kafka producer closed.
 2025-09-11 19:02:21 | INFO | END producer.
+2025-09-14 12:47:38 | INFO | Logging to file: logs/project_log.log
+2025-09-14 12:47:38 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 12:47:38 | INFO | Project root: D:/projects/buzzline-03-USERape
+2025-09-14 12:47:38 | INFO | Data folder: D:/projects/buzzline-03-USERape/data
+2025-09-14 12:47:38 | INFO | Data file: D:/projects/buzzline-03-USERape/data/rainfall.json
+2025-09-14 12:47:38 | INFO | START producer.
+2025-09-14 12:47:38 | INFO | Kafka broker address: localhost:9092
+2025-09-14 12:47:40 | ERROR | Error checking Kafka: NoBrokersAvailable
+2025-09-14 12:47:40 | ERROR | Kafka broker is not ready. Please check your Kafka setup. Exiting...
+2025-09-14 12:53:11 | INFO | Logging to file: logs/project_log.log
+2025-09-14 12:53:11 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 12:53:11 | INFO | Project root: D:/projects/buzzline-03-USERape
+2025-09-14 12:53:11 | INFO | Data folder: D:/projects/buzzline-03-USERape/data
+2025-09-14 12:53:11 | INFO | Data file: D:/projects/buzzline-03-USERape/data/rainfall.json
+2025-09-14 12:53:11 | INFO | START producer.
+2025-09-14 12:53:11 | INFO | Kafka broker address: localhost:9092
+2025-09-14 12:53:12 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'BelHa6fnRvy4wd5axlKIwQ', 'controller_id': 1}
+2025-09-14 12:53:12 | INFO | Kafka topic: buzzline_json
+2025-09-14 12:53:12 | INFO | Message interval: 1 seconds
+2025-09-14 12:53:12 | INFO | Kafka broker address: localhost:9092
+2025-09-14 12:53:12 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-14 12:53:12 | INFO | Kafka producer successfully created.
+2025-09-14 12:53:12 | INFO | Kafka broker address: localhost:9092
+2025-09-14 12:53:12 | INFO | Topic 'buzzline_json' already exists. Recreating fresh...
+2025-09-14 12:53:12 | INFO | Requested deletion of topic 'buzzline_json'.
+2025-09-14 12:53:12 | INFO | Topic 'buzzline_json' created successfully.
+2025-09-14 12:53:12 | INFO | Kafka topic 'buzzline_json' is ready.
+2025-09-14 12:53:12 | INFO | Starting message production to topic 'buzzline_json'...
+2025-09-14 12:53:12 | INFO | Opening data file in read mode: D:/projects/buzzline-03-USERape/data/rainfall.json
+2025-09-14 12:53:12 | INFO | Reading data from file: D:/projects/buzzline-03-USERape/data/rainfall.json
+2025-09-14 12:53:12 | INFO | Sent message to topic 'buzzline_json': {' Area': 'Afghanistan', 'Year': 1985, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 12:53:13 | INFO | Sent message to topic 'buzzline_json': {' Area': 'Afghanistan', 'Year': 1986, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 12:53:14 | INFO | Sent message to topic 'buzzline_json': {' Area': 'Afghanistan', 'Year': 1987, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 12:53:15 | INFO | Sent message to topic 'buzzline_json': {' Area': 'Afghanistan', 'Year': 1989, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 12:53:16 | INFO | Sent message to topic 'buzzline_json': {' Area': 'Afghanistan', 'Year': 1990, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 12:53:17 | INFO | Sent message to topic 'buzzline_json': {' Area': 'Afghanistan', 'Year': 1991, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 12:53:18 | INFO | Sent message to topic 'buzzline_json': {' Area': 'Afghanistan', 'Year': 1992, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 12:53:19 | INFO | Sent message to topic 'buzzline_json': {' Area': 'Afghanistan', 'Year': 1993, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 12:53:20 | INFO | Sent message to topic 'buzzline_json': {' Area': 'Afghanistan', 'Year': 1994, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 12:53:21 | INFO | Sent message to topic 'buzzline_json': {' Area': 'Afghanistan', 'Year': 1995, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 12:53:22 | INFO | Sent message to topic 'buzzline_json': {' Area': 'Afghanistan', 'Year': 1996, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 12:53:23 | INFO | Sent message to topic 'buzzline_json': {' Area': 'Afghanistan', 'Year': 1997, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 12:53:24 | INFO | Sent message to topic 'buzzline_json': {' Area': 'Afghanistan', 'Year': 1998, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 12:53:25 | INFO | Sent message to topic 'buzzline_json': {' Area': 'Afghanistan', 'Year': 1999, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 12:53:26 | INFO | Sent message to topic 'buzzline_json': {' Area': 'Afghanistan', 'Year': 2000, 'average_rain_fall_mm_per_year': '327'}
+2025-09-14 12:53:27 | WARNING | Producer interrupted by user.
+2025-09-14 12:53:27 | INFO | Kafka producer closed.
+2025-09-14 12:53:27 | INFO | END producer.
